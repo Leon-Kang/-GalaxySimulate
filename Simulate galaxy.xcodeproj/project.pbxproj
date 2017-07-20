@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353BC8CE1F209E1200FD2E97 /* SolarSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 353BC8CC1F209E1200FD2E97 /* SolarSystem.cpp */; };
+		353BC8D11F20A0B700FD2E97 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 353BC8CF1F20A0B700FD2E97 /* Star.cpp */; };
 		3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3595ED391F2099DA00EB0F29 /* main.cpp */; };
+		3595ED421F209A1100EB0F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED411F209A1100EB0F29 /* GLUT.framework */; };
+		3595ED441F209A1700EB0F29 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED431F209A1700EB0F29 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		353BC8CC1F209E1200FD2E97 /* SolarSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarSystem.cpp; sourceTree = "<group>"; };
+		353BC8CD1F209E1200FD2E97 /* SolarSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SolarSystem.hpp; sourceTree = "<group>"; };
+		353BC8CF1F20A0B700FD2E97 /* Star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
+		353BC8D01F20A0B700FD2E97 /* Star.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Star.hpp; sourceTree = "<group>"; };
 		3595ED361F2099DA00EB0F29 /* Simulate galaxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simulate galaxy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3595ED391F2099DA00EB0F29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3595ED411F209A1100EB0F29 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		3595ED431F209A1700EB0F29 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3595ED441F209A1700EB0F29 /* OpenGL.framework in Frameworks */,
+				3595ED421F209A1100EB0F29 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +55,7 @@
 			children = (
 				3595ED381F2099DA00EB0F29 /* Simulate galaxy */,
 				3595ED371F2099DA00EB0F29 /* Products */,
+				3595ED401F209A1000EB0F29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +71,21 @@
 			isa = PBXGroup;
 			children = (
 				3595ED391F2099DA00EB0F29 /* main.cpp */,
+				353BC8CC1F209E1200FD2E97 /* SolarSystem.cpp */,
+				353BC8CD1F209E1200FD2E97 /* SolarSystem.hpp */,
+				353BC8CF1F20A0B700FD2E97 /* Star.cpp */,
+				353BC8D01F20A0B700FD2E97 /* Star.hpp */,
 			);
 			path = "Simulate galaxy";
+			sourceTree = "<group>";
+		};
+		3595ED401F209A1000EB0F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3595ED431F209A1700EB0F29 /* OpenGL.framework */,
+				3595ED411F209A1100EB0F29 /* GLUT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353BC8D11F20A0B700FD2E97 /* Star.cpp in Sources */,
+				353BC8CE1F209E1200FD2E97 /* SolarSystem.cpp in Sources */,
 				3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -210,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -220,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XX5K3QH3UW;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -228,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = XX5K3QH3UW;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -251,6 +281,7 @@
 				3595ED3F1F2099DA00EB0F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
