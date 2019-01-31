@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		353BC8CE1F209E1200FD2E97 /* SolarSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 353BC8CC1F209E1200FD2E97 /* SolarSystem.cpp */; };
 		353BC8D11F20A0B700FD2E97 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 353BC8CF1F20A0B700FD2E97 /* Star.cpp */; };
+		354D31F82202F30C00FADD62 /* IWMetricImperialConverter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 354D31F62202F30C00FADD62 /* IWMetricImperialConverter.cpp */; };
 		3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3595ED391F2099DA00EB0F29 /* main.cpp */; };
 		3595ED421F209A1100EB0F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED411F209A1100EB0F29 /* GLUT.framework */; };
 		3595ED441F209A1700EB0F29 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED431F209A1700EB0F29 /* OpenGL.framework */; };
@@ -31,6 +32,8 @@
 		353BC8CD1F209E1200FD2E97 /* SolarSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SolarSystem.hpp; sourceTree = "<group>"; };
 		353BC8CF1F20A0B700FD2E97 /* Star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
 		353BC8D01F20A0B700FD2E97 /* Star.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Star.hpp; sourceTree = "<group>"; };
+		354D31F62202F30C00FADD62 /* IWMetricImperialConverter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IWMetricImperialConverter.cpp; sourceTree = "<group>"; };
+		354D31F72202F30C00FADD62 /* IWMetricImperialConverter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IWMetricImperialConverter.hpp; sourceTree = "<group>"; };
 		3595ED361F2099DA00EB0F29 /* Simulate galaxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simulate galaxy"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3595ED391F2099DA00EB0F29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3595ED411F209A1100EB0F29 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
@@ -75,6 +78,8 @@
 				353BC8CD1F209E1200FD2E97 /* SolarSystem.hpp */,
 				353BC8CF1F20A0B700FD2E97 /* Star.cpp */,
 				353BC8D01F20A0B700FD2E97 /* Star.hpp */,
+				354D31F62202F30C00FADD62 /* IWMetricImperialConverter.cpp */,
+				354D31F72202F30C00FADD62 /* IWMetricImperialConverter.hpp */,
 			);
 			path = "Simulate galaxy";
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				353BC8D11F20A0B700FD2E97 /* Star.cpp in Sources */,
+				354D31F82202F30C00FADD62 /* IWMetricImperialConverter.cpp in Sources */,
 				353BC8CE1F209E1200FD2E97 /* SolarSystem.cpp in Sources */,
 				3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */,
 			);
