@@ -13,6 +13,7 @@
 		3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3595ED391F2099DA00EB0F29 /* main.cpp */; };
 		3595ED421F209A1100EB0F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED411F209A1100EB0F29 /* GLUT.framework */; };
 		3595ED441F209A1700EB0F29 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3595ED431F209A1700EB0F29 /* OpenGL.framework */; };
+		6B91B5462203646300BA6B57 /* IWMKMConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B91B5452203646300BA6B57 /* IWMKMConverter.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,8 @@
 		3595ED391F2099DA00EB0F29 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3595ED411F209A1100EB0F29 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		3595ED431F209A1700EB0F29 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6B91B5452203646300BA6B57 /* IWMKMConverter.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = IWMKMConverter.mm; sourceTree = "<group>"; };
+		6B91B5482203649000BA6B57 /* IWMKMConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWMKMConverter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				353BC8D01F20A0B700FD2E97 /* Star.hpp */,
 				354D31F62202F30C00FADD62 /* IWMetricImperialConverter.cpp */,
 				354D31F72202F30C00FADD62 /* IWMetricImperialConverter.hpp */,
+				6B91B5452203646300BA6B57 /* IWMKMConverter.mm */,
+				6B91B5482203649000BA6B57 /* IWMKMConverter.h */,
 			);
 			path = "Simulate galaxy";
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				353BC8D11F20A0B700FD2E97 /* Star.cpp in Sources */,
 				354D31F82202F30C00FADD62 /* IWMetricImperialConverter.cpp in Sources */,
+				6B91B5462203646300BA6B57 /* IWMKMConverter.mm in Sources */,
 				353BC8CE1F209E1200FD2E97 /* SolarSystem.cpp in Sources */,
 				3595ED3A1F2099DA00EB0F29 /* main.cpp in Sources */,
 			);
